@@ -1,0 +1,1 @@
+import{d as s,r as n,o,c as a,u as c}from"./entry.a41bbcb9.js";const l=s({__name:"test",setup(r){const{$axios:t}=c();return t.get("news").then(e=>e),n({search:"",options:null}),(e,p)=>(o(),a("div",null,"test"))}});export{l as default};
