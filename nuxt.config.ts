@@ -8,6 +8,9 @@ const environment = {
 }
 
 export default defineNuxtConfig({
+  router: {
+    base: "impact-circle-corporate",
+  },
   telemetry: false,
   devtools: { enabled: false },
   runtimeConfig: {
